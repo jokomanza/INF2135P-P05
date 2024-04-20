@@ -2,6 +2,9 @@ package assignment;
 
 import java.util.Scanner;
 
+/**
+ * Main class to calculate distance between two dots
+ */
 public class Main {
 
     /**

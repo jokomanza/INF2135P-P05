@@ -1,5 +1,8 @@
 package assignment;
 
+/**
+ * Dot class to represent a dot in 2D plane
+ */
 public class Dot {
     private long x;
     private long y;
