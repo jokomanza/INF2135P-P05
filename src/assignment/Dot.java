@@ -7,6 +7,12 @@ public class Dot {
     private long x;
     private long y;
 
+    /**
+     * Default constructor. Initialize x and y when creating a new dot
+     *
+     * @param x x coordinate
+     * @param y y coordinate
+     */
     public Dot(long x, long y) {
         this.x = x;
         this.y = y;
