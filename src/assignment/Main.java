@@ -68,8 +68,10 @@ public class Main {
     private static double calculateDistance(Dot dot1, Dot dot2) {
         long x1 = dot1.getX();
         long y1 = dot1.getY();
+
         long x2 = dot2.getX();
         long y2 = dot2.getY();
+
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     }
 
