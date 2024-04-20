@@ -33,4 +33,21 @@ public class Dot {
     public void setY(long y) {
         this.y = y;
     }
+
+    /**
+     * Calculate distance between this dot and other dot
+     *
+     * @param otherDot the other dot
+     * @return distance between two dots
+     */
+    double distanceTo(Dot otherDot) {
+        long x1 = getX();
+        long y1 = getY();
+
+        long x2 = otherDot.getX();
+        long y2 = otherDot.getY();
+
+        return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    }
+
 }
