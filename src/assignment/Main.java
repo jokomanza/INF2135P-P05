@@ -37,7 +37,8 @@ public class Main {
     }
 
     /**
-     * Get input from user
+     * Get input from user, if the input is invalid, it will ask for input again
+     * until the input is valid
      *
      * @param name input name
      * @param invalidInput whether the previous input is invalid
