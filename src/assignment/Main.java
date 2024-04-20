@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Main {
 
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         System.out.println("This program will calculate distance between two dots");
 
