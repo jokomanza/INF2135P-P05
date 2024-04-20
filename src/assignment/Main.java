@@ -50,6 +50,13 @@ public class Main {
         }
     }
 
+    /**
+     * Calculate distance between two dots
+     *
+     * @param dot1 first dot
+     * @param dot2 second dot
+     * @return distance between two dots
+     */
     private static double calculateDistance(Dot dot1, Dot dot2) {
         long x1 = dot1.getX();
         long y1 = dot1.getY();
