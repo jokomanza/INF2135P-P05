@@ -38,7 +38,7 @@ public class Dot {
      * Calculate distance between this dot and other dot
      *
      * @param otherDot the other dot
-     * @return distance between two dots
+     * @return distance between this dot and other dot
      */
     double distanceTo(Dot otherDot) {
         long x1 = getX();
